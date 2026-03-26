@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Travel Gallery — Jie Lou">
+  <title>Travel Gallery — Jie Lou</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">JL</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#events">Events</a></li>
+        <li><a href="index.html#travel">Travel</a></li>
+        <li><a href="mailto:jlou1@alumni.cmu.edu" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ GALLERY ═══ -->
+  <main class="gallery-page section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Adventures</span>
+        <h1 class="section-title">Travel Gallery</h1>
+      </div>
+      <p class="section-desc reveal">Places explored, moments captured.</p>
+
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="photos/travelling/DSC09786.jpg" alt="Travel photo" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/travelling/IMG_9056.jpg" alt="Travel photo" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/travelling/IMG_9424.JPG" alt="Travel photo" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/travelling/IMG_9639.jpg" alt="Travel photo" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Add more photos above as you travel — just copy a .gallery-item block -->
+
+      <div style="text-align:center; margin-top:3rem">
+        <a href="index.html" class="btn btn-ghost">← Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ═══ LIGHTBOX ═══ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&#x2715;</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-name">Jie Lou</div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:jlou1@alumni.cmu.edu">jlou1@alumni.cmu.edu</a>
+        </div>
+        <div class="footer-copy">&copy; 2026 Jie Lou</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
