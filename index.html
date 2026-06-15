@@ -7,14 +7,21 @@
   <meta property="og:title"       content="Jie Lou — AI Safety Engineer & AI Builder">
   <meta property="og:description" content="Senior ML Engineer at NVIDIA focused on AI safety; AI builder working on agent development and vibe-coded products.">
   <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://jielou.github.io/">
+  <meta property="og:image"       content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
+  <meta name="twitter:card"       content="summary_large_image">
+  <meta name="twitter:image"      content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
+  <meta name="theme-color"        content="#6D5DF6">
   <title>Jie Lou — AI Safety Engineer & AI Builder</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="photos/optimized/profile_2026_560.jpg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a href="#main" class="skip-link">Skip to content</a>
 
   <!-- ═══ NAVIGATION ═══ -->
   <nav class="nav" id="nav">
@@ -23,7 +30,7 @@
         <span class="logo-full">Jie Lou</span>
         <span class="logo-short">JL</span>
       </a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -33,30 +40,36 @@
         <li><a href="#travel">Travel</a></li>
         <li><a href="mailto:jlou1@alumni.cmu.edu" class="nav-cta">Contact</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-controls="navLinks" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
+  <main id="main">
   <!-- ═══ HERO ═══ -->
   <section id="hero" class="hero" data-theme="slate">
     <div class="hero-bg"></div>
     <div class="container hero-content">
 
       <div class="hero-text fade-up">
-        <span class="hero-label">// AI Safety Engineer & AI Builder</span>
+        <span class="hero-label">// Multimodal AI Safety · Agent Builder</span>
         <h1 class="hero-name">Jie Lou</h1>
-        <p class="hero-tagline">Building guardrails<br>at the frontier of AI.</p>
-        <p class="hero-sub">Senior ML Engineer · NVIDIA &nbsp;·&nbsp; CMU Alum</p>
+        <p class="hero-tagline">Making frontier AI<br>safer to ship.</p>
+        <p class="hero-sub">Senior ML Engineer at NVIDIA · Safety evals, red-team data, alignment pipelines</p>
         <div class="hero-actions">
-          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#projects" class="btn btn-primary">Explore Work</a>
           <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener" class="btn btn-ghost">
             <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="18" height="18">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
             </svg>
             LinkedIn ↗
           </a>
+        </div>
+        <div class="hero-signals fade-up" style="animation-delay:0.28s">
+          <span>Multimodal evals</span>
+          <span>Synthetic safety data</span>
+          <span>Agent tooling</span>
         </div>
         <div class="hero-companies fade-up" style="animation-delay:0.35s">
           <span class="hc-label">Currently at</span>
@@ -70,7 +83,7 @@
 
       <div class="hero-photo fade-up" style="animation-delay:0.2s">
         <div class="hero-photo-ring">
-          <img src="photos/profile/profile_2026_gray.png" alt="Jie Lou" class="hero-avatar">
+          <img src="photos/optimized/profile_2026_560.jpg" alt="Jie Lou" class="hero-avatar" width="280" height="280" decoding="async" fetchpriority="high">
         </div>
       </div>
 
@@ -92,7 +105,7 @@
         <div class="about-bio">
           <p>I'm a Senior Machine Learning Engineer at <strong>NVIDIA</strong>, focused on AI safety for large multimodal foundation models. I design systems that make powerful AI more reliable, robust, and aligned — working across text, image, audio, and video modalities.</p>
           <p>Previously at <strong>Electronic Arts</strong> and <strong>Actium Health</strong>, I built ML platforms and infrastructure that scaled data science across organizations — from training job orchestration to model lifecycle management and experiment tracking.</p>
-          <p>Outside of work, I'm an active <strong>AI builder</strong>. I ship side projects at the intersection of <strong>agent development</strong> and <strong>vibe coding</strong>, turning ideas into real products through hands-on iteration.</p>
+          <p>Outside of work, I'm an active <strong>AI builder</strong>. I like small, useful tools: coding agents, browser extensions, and local-first interfaces that turn messy workflows into something you can actually ship.</p>
           <p>I hold a Master's from <strong>Carnegie Mellon University</strong> and a dual degree in Statistics and Mathematics from the <strong>University of Missouri</strong>. I care deeply about building AI that is both powerful <em>and</em> responsible.</p>
         </div>
         <div class="about-facts">
@@ -147,6 +160,10 @@
             <span class="project-arrow">↗</span>
           </div>
           <p class="project-desc">A Chrome extension that turns browser tab chaos into a clean dashboard — spot duplicates, zombie tabs, and distraction patterns, then group or close them in one place.</p>
+          <dl class="project-proof">
+            <div><dt>Signal</dt><dd>Personal productivity tool</dd></div>
+            <div><dt>Shape</dt><dd>Browser UX, local tab analysis</dd></div>
+          </dl>
           <div class="project-tags">
             <span class="tag">Chrome Extension</span>
             <span class="tag">Vanilla JS</span>
@@ -160,6 +177,10 @@
             <span class="project-arrow">↗</span>
           </div>
           <p class="project-desc">An agent skill that creates structured, interactive summaries of YouTube videos with timestamps, key points, themes, and a searchable local library.</p>
+          <dl class="project-proof">
+            <div><dt>Signal</dt><dd>Turns long videos into reusable notes</dd></div>
+            <div><dt>Shape</dt><dd>Agent workflow, local HTML library</dd></div>
+          </dl>
           <div class="project-tags">
             <span class="tag">Agent Skill</span>
             <span class="tag">LLM</span>
@@ -173,6 +194,10 @@
             <span class="project-arrow">↗</span>
           </div>
           <p class="project-desc">A minimal coding agent that solves small software-engineering tasks through a tight LLM → bash → observation loop, built to explore the essentials of agent design.</p>
+          <dl class="project-proof">
+            <div><dt>Signal</dt><dd>Small surface area, clear control loop</dd></div>
+            <div><dt>Shape</dt><dd>LLM orchestration, bash observation</dd></div>
+          </dl>
           <div class="project-tags">
             <span class="tag">Agent Dev</span>
             <span class="tag">Vibe Coding</span>
@@ -406,7 +431,7 @@
 
         <!-- Training Lab -->
         <div class="event-row reveal">
-          <img src="photos/gtc/PXL_20260319_210431893.JPG" alt="GTC 2026 Training Lab" class="event-photo">
+          <img src="photos/optimized/gtc_training_720.jpg" alt="Jie presenting a GTC 2026 training lab" class="event-photo" loading="lazy" decoding="async" width="720">
           <a href="https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit82150/"
              target="_blank" rel="noopener" class="event-card">
             <div class="event-card-top">
@@ -421,7 +446,7 @@
 
         <!-- Poster Session -->
         <div class="event-row reveal">
-          <img src="photos/gtc/IMG_1838.jpg" alt="GTC 2026 Poster Session" class="event-photo">
+          <img src="photos/optimized/gtc_poster_720.jpg" alt="Jie at the GTC 2026 poster session" class="event-photo" loading="lazy" decoding="async" width="720">
           <a href="https://www.nvidia.com/gtc/posters/?search=safety#/session/1761263647501001dGIz"
              target="_blank" rel="noopener" class="event-card">
             <div class="event-card-top">
@@ -447,16 +472,29 @@
       </div>
       <p class="section-desc reveal">When I'm not building AI systems, I'm out exploring the world.</p>
       <div class="travel-grid reveal">
-        <img src="photos/travelling/DSC09786.jpg"  alt="Travel"  class="travel-photo">
-        <img src="photos/travelling/IMG_9056.jpg"  alt="Travel"  class="travel-photo">
-        <img src="photos/travelling/IMG_9424.JPG"  alt="Travel"  class="travel-photo">
-        <img src="photos/travelling/IMG_9639.jpg"  alt="Travel"  class="travel-photo">
+        <figure class="travel-item">
+          <img src="photos/optimized/travel_dsc09786_760.jpg"  alt="Mountain view from a travel stop"  class="travel-photo" loading="lazy" decoding="async">
+          <figcaption>Open sky</figcaption>
+        </figure>
+        <figure class="travel-item">
+          <img src="photos/optimized/travel_img9056_760.jpg"  alt="City architecture captured while traveling"  class="travel-photo" loading="lazy" decoding="async">
+          <figcaption>City texture</figcaption>
+        </figure>
+        <figure class="travel-item">
+          <img src="photos/optimized/travel_img9424_760.jpg"  alt="Coastal travel landscape"  class="travel-photo" loading="lazy" decoding="async">
+          <figcaption>Between stops</figcaption>
+        </figure>
+        <figure class="travel-item">
+          <img src="photos/optimized/travel_img9639_760.jpg"  alt="Travel moment outdoors"  class="travel-photo" loading="lazy" decoding="async">
+          <figcaption>Small detours</figcaption>
+        </figure>
       </div>
       <div class="travel-cta reveal">
         <a href="gallery.html" class="btn btn-primary">View Full Gallery</a>
       </div>
     </div>
   </section>
+  </main>
 
   <!-- ═══ FOOTER ═══ -->
   <footer class="footer">
