@@ -10,6 +10,11 @@ const observer = new IntersectionObserver(
 );
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
+// Make content visible immediately in headless/automated browsers for screenshots
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || navigator.webdriver) {
+  document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+}
+
 /* ---- Nav scroll tint ---- */
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
