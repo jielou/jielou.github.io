@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Travel Gallery — Jie Lou">
+  <meta name="description" content="Travel Gallery - Jie Lou">
   <meta property="og:url" content="https://jielou.github.io/gallery.html">
   <meta property="og:image" content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
-  <meta name="theme-color" content="#6D5DF6">
-  <title>Travel Gallery — Jie Lou</title>
+  <meta name="theme-color" content="#526F78">
+  <title>Travel Gallery - Jie Lou</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" href="photos/optimized/profile_2026_560.jpg">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,17 +21,18 @@
   <a href="#main" class="skip-link">Skip to content</a>
 
   <!-- ═══ NAVIGATION ═══ -->
-  <nav class="nav" id="nav">
+  <nav class="nav is-away" id="nav">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">JL</a>
+      <a href="index.html" class="nav-logo" aria-label="Jie Lou home">
+        <span class="logo-full">Jie Lou</span>
+        <span class="logo-short">JL</span>
+      </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="index.html#experience">Experience</a></li>
-        <li><a href="index.html#education">Education</a></li>
-        <li><a href="index.html#skills">Skills</a></li>
-        <li><a href="index.html#events">Events</a></li>
-        <li><a href="index.html#travel">Travel</a></li>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#lab">Lab</a></li>
+        <li><a href="index.html#field">Work</a></li>
+        <li><a href="index.html#proof">GTC</a></li>
+        <li><a href="index.html#off-grid">Travel</a></li>
         <li><a href="mailto:jlou1@alumni.cmu.edu" class="nav-cta">Contact</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-controls="navLinks" aria-expanded="false">
@@ -51,12 +52,12 @@
 
       <div class="gallery-grid reveal">
         <figure class="gallery-item">
-          <img src="photos/optimized/travel_dsc09786_760.jpg" data-full="photos/travelling/DSC09786.jpg" alt="Mountain view from a travel stop" loading="lazy" decoding="async">
-          <figcaption>Open sky</figcaption>
+          <img src="photos/optimized/travel_dsc09786_760.jpg" data-full="photos/travelling/DSC09786.jpg" alt="Alaska train at blue hour" loading="lazy" decoding="async">
+          <figcaption>Alaska rail</figcaption>
         </figure>
         <figure class="gallery-item">
-          <img src="photos/optimized/travel_img9056_760.jpg" data-full="photos/travelling/IMG_9056.jpg" alt="City architecture captured while traveling" loading="lazy" decoding="async">
-          <figcaption>City texture</figcaption>
+          <img src="photos/optimized/travel_img9056_760.jpg" data-full="photos/travelling/IMG_9056.jpg" alt="Ice wall texture captured while traveling" loading="lazy" decoding="async">
+          <figcaption>Ice texture</figcaption>
         </figure>
         <figure class="gallery-item">
           <img src="photos/optimized/travel_img9424_760.jpg" data-full="photos/travelling/IMG_9424.JPG" alt="Coastal travel landscape" loading="lazy" decoding="async">
@@ -68,7 +69,7 @@
         </figure>
       </div>
 
-      <!-- Add more photos above as you travel — just copy a .gallery-item block -->
+      <!-- Add more photos above as you travel. Copy a .gallery-item block. -->
 
       <div style="text-align:center; margin-top:3rem">
         <a href="index.html" class="btn btn-ghost">← Back to Home</a>

@@ -3,41 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jie Lou — Senior ML Engineer & AI Safety at NVIDIA. AI builder shipping side projects in agent dev and vibe coding.">
-  <meta property="og:title"       content="Jie Lou — AI Safety Engineer & AI Builder">
-  <meta property="og:description" content="Senior ML Engineer at NVIDIA focused on AI safety; AI builder working on agent development and vibe-coded products.">
-  <meta property="og:type"        content="website">
-  <meta property="og:url"         content="https://jielou.github.io/">
-  <meta property="og:image"       content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
-  <meta name="twitter:card"       content="summary_large_image">
-  <meta name="twitter:image"      content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
-  <meta name="theme-color"        content="#6D5DF6">
-  <title>Jie Lou — AI Safety Engineer & AI Builder</title>
+  <meta name="description" content="Jie Lou - AI safety engineer and AI builder working on multimodal safety, alignment workflows, MLOps, and agent tools.">
+  <meta property="og:title" content="Jie Lou - AI Safety Engineer & AI Builder">
+  <meta property="og:description" content="Senior ML Engineer at NVIDIA focused on AI safety, multimodal evaluation, and builder-led AI tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jielou.github.io/">
+  <meta property="og:image" content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jielou.github.io/photos/social/jie-lou-og.jpg">
+  <meta name="theme-color" content="#526F78">
+  <title>Jie Lou - AI Safety Engineer & AI Builder</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" href="photos/optimized/profile_2026_560.jpg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
 
-  <!-- ═══ NAVIGATION ═══ -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">
+      <a href="#home" class="nav-logo" aria-label="Jie Lou home">
         <span class="logo-full">Jie Lou</span>
         <span class="logo-short">JL</span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#travel">Travel</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#lab">Lab</a></li>
+        <li><a href="#field">Work</a></li>
+        <li><a href="#proof">GTC</a></li>
+        <li><a href="#off-grid">Travel</a></li>
         <li><a href="mailto:jlou1@alumni.cmu.edu" class="nav-cta">Contact</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-controls="navLinks" aria-expanded="false">
@@ -47,465 +44,273 @@
   </nav>
 
   <main id="main">
-  <!-- ═══ HERO ═══ -->
-  <section id="hero" class="hero" data-theme="slate">
-    <div class="hero-bg"></div>
-    <div class="container hero-content">
+    <section id="home" class="hero section-panel" data-section="Home">
+      <div class="scan-grid" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="section-kicker">AI safety engineer / builder-led systems</p>
+          <h1>Frontier AI, safer to ship.</h1>
+          <p class="hero-subtitle">I build multimodal safety systems, alignment workflows, MLOps infrastructure, and small agent tools that turn messy workflows into products.</p>
+          <div class="hero-actions">
+            <a href="#lab" class="btn btn-primary">Explore lab</a>
+            <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn -></a>
+          </div>
+          <dl class="profile-strip" aria-label="Current profile">
+            <div>
+              <dt>Current</dt>
+              <dd>NVIDIA</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>AI safety</dd>
+            </div>
+            <div>
+              <dt>Base</dt>
+              <dd>Sunnyvale, CA</dd>
+            </div>
+          </dl>
+        </div>
 
-      <div class="hero-text fade-up">
-        <span class="hero-label">// Multimodal AI Safety · Agent Builder</span>
-        <h1 class="hero-name">Jie Lou</h1>
-        <p class="hero-tagline">Making frontier AI<br>safer to ship.</p>
-        <p class="hero-sub">Senior ML Engineer at NVIDIA · Safety evals, red-team data, alignment pipelines</p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">Explore Work</a>
-          <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener" class="btn btn-ghost">
-            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="18" height="18">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-            LinkedIn ↗
+        <div class="hero-system reveal" style="--delay: 90ms">
+          <aside class="identity-card" aria-label="Profile">
+            <img src="photos/optimized/profile_2026_560.jpg" alt="Jie Lou" width="560" height="560" decoding="async" fetchpriority="high">
+            <div>
+              <span class="mini-label">AI builder</span>
+              <strong>Jie Lou</strong>
+              <p>Senior ML Engineer. AI safety, MLOps, agent tooling.</p>
+            </div>
+          </aside>
+
+          <div class="console-window">
+            <div class="console-topbar">
+              <span>Work snapshot</span>
+              <span class="status-dot">2026</span>
+            </div>
+            <div class="console-body" aria-label="AI safety work snapshot">
+              <div class="console-row">
+                <span class="row-time">01</span>
+                <span class="row-name">multimodal safety</span>
+                <span class="row-state state-ok">text image audio video</span>
+              </div>
+              <div class="console-row">
+                <span class="row-time">02</span>
+                <span class="row-name">alignment workflow</span>
+                <span class="row-state state-ok">safety pipeline</span>
+              </div>
+              <div class="console-row">
+                <span class="row-time">03</span>
+                <span class="row-name">MLOps</span>
+                <span class="row-state state-ok">platform systems</span>
+              </div>
+              <div class="console-row">
+                <span class="row-time">04</span>
+                <span class="row-name">agent tools</span>
+                <span class="row-state state-blue">side projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lab" class="section-panel lab-panel">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Lab artifacts</p>
+          <h2>Side projects that expose how I think.</h2>
+          <p>I use small tools to pressure-test product instincts: browser behavior, information distillation, and the minimal control loop behind software agents.</p>
+          <a href="https://github.com/jielou" target="_blank" rel="noopener" class="github-link">github.com/jielou -></a>
+        </div>
+
+        <div class="artifact-grid">
+          <a href="https://github.com/jielou/tab-lens" target="_blank" rel="noopener" class="artifact-card reveal">
+            <div class="artifact-meta">
+              <span>browser ux</span>
+              <span>repo -></span>
+            </div>
+            <h3>Tab Lens</h3>
+            <p>A Chrome extension that turns browser tab chaos into a clean dashboard for duplicates, stale tabs, and attention patterns.</p>
+            <div class="artifact-tags">
+              <span>Chrome Extension</span>
+              <span>Vanilla JS</span>
+              <span>Productivity</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/jielou/youtube-summarizer" target="_blank" rel="noopener" class="artifact-card reveal" style="--delay: 80ms">
+            <div class="artifact-meta">
+              <span>agent skill</span>
+              <span>repo -></span>
+            </div>
+            <h3>YouTube Summarizer</h3>
+            <p>A local HTML library for structured video notes with timestamps, key points, themes, and searchable summaries.</p>
+            <div class="artifact-tags">
+              <span>LLM</span>
+              <span>HTML UI</span>
+              <span>Knowledge Workflow</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/jielou/nano-swe-agent" target="_blank" rel="noopener" class="artifact-card reveal" style="--delay: 160ms">
+            <div class="artifact-meta">
+              <span>control loop</span>
+              <span>repo -></span>
+            </div>
+            <h3>Nano SWE Agent</h3>
+            <p>A compact coding agent exploring the essential LLM to bash to observation loop without hiding the mechanics.</p>
+            <div class="artifact-tags">
+              <span>Agent Dev</span>
+              <span>Python</span>
+              <span>Vibe Coding</span>
+            </div>
           </a>
         </div>
-        <div class="hero-signals fade-up" style="animation-delay:0.28s">
-          <span>Multimodal evals</span>
-          <span>Synthetic safety data</span>
-          <span>Agent tooling</span>
-        </div>
-        <div class="hero-companies fade-up" style="animation-delay:0.35s">
-          <span class="hc-label">Currently at</span>
-          <span class="co-logo co-nvidia">NVIDIA</span>
-          <span class="hc-sep">·</span>
-          <span class="hc-label">Previously at</span>
-          <span class="co-logo co-ea">EA</span>
-          <span class="co-logo co-actium">Actium Health</span>
-        </div>
       </div>
+    </section>
 
-      <div class="hero-photo fade-up" style="animation-delay:0.2s">
-        <div class="hero-photo-ring">
-          <img src="photos/optimized/profile_2026_560.jpg" alt="Jie Lou" class="hero-avatar" width="280" height="280" decoding="async" fetchpriority="high">
-        </div>
-      </div>
-
-    </div>
-    <div class="hero-scroll-hint">
-      <span>scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
-
-  <!-- ═══ ABOUT ═══ -->
-  <section id="about" class="section" data-theme="amber">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 01</span>
-        <h2 class="section-title">About</h2>
-      </div>
-      <div class="about-grid reveal">
-        <div class="about-bio">
-          <p>I'm a Senior Machine Learning Engineer at <strong>NVIDIA</strong>, focused on AI safety for large multimodal foundation models. I design systems that make powerful AI more reliable, robust, and aligned — working across text, image, audio, and video modalities.</p>
-          <p>Previously at <strong>Electronic Arts</strong> and <strong>Actium Health</strong>, I built ML platforms and infrastructure that scaled data science across organizations — from training job orchestration to model lifecycle management and experiment tracking.</p>
-          <p>Outside of work, I'm an active <strong>AI builder</strong>. I like small, useful tools: coding agents, browser extensions, and local-first interfaces that turn messy workflows into something you can actually ship.</p>
-          <p>I hold a Master's from <strong>Carnegie Mellon University</strong> and a dual degree in Statistics and Mathematics from the <strong>University of Missouri</strong>. I care deeply about building AI that is both powerful <em>and</em> responsible.</p>
-        </div>
-        <div class="about-facts">
-          <div class="fact-card">
-            <div class="fact-row">
-              <span class="fact-label">Location</span>
-              <span class="fact-value">Sunnyvale, CA</span>
-            </div>
-            <div class="fact-row">
-              <span class="fact-label">Role</span>
-              <span class="fact-value">Senior ML Engineer</span>
-            </div>
-            <div class="fact-row">
-              <span class="fact-label">Company</span>
-              <span class="fact-value">NVIDIA</span>
-            </div>
-            <div class="fact-row">
-              <span class="fact-label">Focus</span>
-              <span class="fact-value">AI Safety &amp; Alignment</span>
-            </div>
-            <div class="fact-row">
-              <span class="fact-label">Education</span>
-              <span class="fact-value">CMU &middot; UMissouri</span>
-            </div>
-            <div class="fact-row">
-              <span class="fact-label">Email</span>
-              <span class="fact-value">
-                <a href="mailto:jlou1@alumni.cmu.edu">jlou1@alumni.cmu.edu</a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ AI BUILDER ═══ -->
-  <section id="projects" class="section" data-theme="teal">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 02</span>
-        <h2 class="section-title">AI Builder</h2>
-      </div>
-      <div class="projects-intro reveal">
-        <p>I build AI products end-to-end — combining <strong>agent development</strong>, <strong>vibe coding</strong>, and rapid iteration. These are a few side projects I'm actively shipping and learning from.</p>
-      </div>
-      <div class="projects-grid reveal">
-
-        <a href="https://github.com/jielou/tab-lens" target="_blank" rel="noopener" class="project-card">
-          <div class="project-card-top">
-            <h3 class="project-title">Tab Lens</h3>
-            <span class="project-arrow">↗</span>
-          </div>
-          <p class="project-desc">A Chrome extension that turns browser tab chaos into a clean dashboard — spot duplicates, zombie tabs, and distraction patterns, then group or close them in one place.</p>
-          <dl class="project-proof">
-            <div><dt>Signal</dt><dd>Personal productivity tool</dd></div>
-            <div><dt>Shape</dt><dd>Browser UX, local tab analysis</dd></div>
-          </dl>
-          <div class="project-tags">
-            <span class="tag">Chrome Extension</span>
-            <span class="tag">Vanilla JS</span>
-            <span class="tag">Productivity</span>
-          </div>
-        </a>
-
-        <a href="https://github.com/jielou/youtube-summarizer" target="_blank" rel="noopener" class="project-card">
-          <div class="project-card-top">
-            <h3 class="project-title">YouTube Summarizer</h3>
-            <span class="project-arrow">↗</span>
-          </div>
-          <p class="project-desc">An agent skill that creates structured, interactive summaries of YouTube videos with timestamps, key points, themes, and a searchable local library.</p>
-          <dl class="project-proof">
-            <div><dt>Signal</dt><dd>Turns long videos into reusable notes</dd></div>
-            <div><dt>Shape</dt><dd>Agent workflow, local HTML library</dd></div>
-          </dl>
-          <div class="project-tags">
-            <span class="tag">Agent Skill</span>
-            <span class="tag">LLM</span>
-            <span class="tag">HTML UI</span>
-          </div>
-        </a>
-
-        <a href="https://github.com/jielou/nano-swe-agent" target="_blank" rel="noopener" class="project-card">
-          <div class="project-card-top">
-            <h3 class="project-title">Nano SWE Agent</h3>
-            <span class="project-arrow">↗</span>
-          </div>
-          <p class="project-desc">A minimal coding agent that solves small software-engineering tasks through a tight LLM → bash → observation loop, built to explore the essentials of agent design.</p>
-          <dl class="project-proof">
-            <div><dt>Signal</dt><dd>Small surface area, clear control loop</dd></div>
-            <div><dt>Shape</dt><dd>LLM orchestration, bash observation</dd></div>
-          </dl>
-          <div class="project-tags">
-            <span class="tag">Agent Dev</span>
-            <span class="tag">Vibe Coding</span>
-            <span class="tag">Python</span>
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ EXPERIENCE ═══ -->
-  <section id="experience" class="section section-alt" data-theme="indigo">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 03</span>
-        <h2 class="section-title">Experience</h2>
-      </div>
-
-      <div class="timeline">
-
-        <!-- Nvidia -->
-        <div class="timeline-item reveal">
-          <div class="timeline-marker">
-            <div class="timeline-dot current"></div>
-          </div>
-          <div class="timeline-card current">
-            <div class="timeline-header">
+    <section id="field" class="section-panel field-panel">
+      <div class="section-shell two-column-shell">
+        <div class="section-heading sticky-heading reveal">
+          <p class="section-kicker">Field work</p>
+          <h2>Systems work across safety, platforms, and ML infrastructure.</h2>
+          <p>The through-line: make complex model workflows observable, repeatable, and easier for teams to trust.</p>
+          <div class="credential-card education-card">
+            <span>Education</span>
+            <div class="school-row">
+              <span class="school-logo cmu-logo">CMU</span>
               <div>
-                <h3 class="timeline-role">Senior Machine Learning Engineer</h3>
-                <div class="timeline-company"><span class="co-logo co-nvidia">NVIDIA</span><span class="co-location">Santa Clara, CA</span></div>
-              </div>
-              <div class="timeline-meta">
-                <span class="badge badge-green">Current</span>
-                <span class="timeline-date">Dec 2023 – Present</span>
+                <strong>Carnegie Mellon University</strong>
+                <p>Master of Information Systems Management</p>
               </div>
             </div>
-            <ul class="timeline-bullets">
-              <li>Lead end-to-end AI safety initiatives for large multimodal foundation models across text, image, audio, and video</li>
-              <li>Design and maintain scalable safety data pipelines — synthetic data creation, red-teaming datasets, and adversarial test cases</li>
-              <li>Build evaluation frameworks to assess model safety, robustness, and failure modes across multimodal inputs</li>
-              <li>Collaborate with post-training and model training teams to integrate safety evaluations into deployment workflows</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- EA -->
-        <div class="timeline-item reveal">
-          <div class="timeline-marker">
-            <div class="timeline-dot"></div>
-          </div>
-          <div class="timeline-card">
-            <div class="timeline-header">
+            <div class="school-row">
+              <span class="school-logo mizzou-logo">M</span>
               <div>
-                <h3 class="timeline-role">Software Engineer,  AI Platform</h3>
-                <div class="timeline-company"><span class="co-logo co-ea">EA</span><span class="co-location">Redwood City, CA</span></div>
-              </div>
-              <div class="timeline-meta">
-                <span class="timeline-date">Jul 2021 – Dec 2023</span>
+                <strong>University of Missouri</strong>
+                <p>Bachelor of Science in Statistics and Mathematics</p>
               </div>
             </div>
-            <ul class="timeline-bullets">
-              <li>Built Kubeflow-based training job submission service with a Go gateway, AWS Keyspace metadata, and Argo workflow templates; boosted adoption 80% through logging, UI, and R support improvements</li>
-              <li>Reduced training build time 50% via optimized Argo workflow templates tailored to CPU/GPU environments</li>
-              <li>Developed MLflow ML tracking service with custom ACL implementation for experiment and model privacy</li>
-              <li>Prototyped next-gen AI Platform features: distributed tuning in Ray/Dask and a GPT-4–powered Slack chatbot for internal support</li>
-            </ul>
           </div>
         </div>
 
-        <!-- Actium Health -->
-        <div class="timeline-item reveal">
-          <div class="timeline-marker">
-            <div class="timeline-dot"></div>
-          </div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Machine Learning Engineer</h3>
-                <div class="timeline-company"><span class="co-logo co-actium">Actium Health</span><span class="co-location">Pittsburgh, PA</span></div>
-              </div>
-              <div class="timeline-meta">
-                <span class="timeline-date">Jul 2019 – Jul 2021</span>
-              </div>
+        <div class="mission-log">
+          <article class="mission-item mission-current reveal">
+            <div class="mission-date">Dec 2023 - Present</div>
+            <div class="mission-card mission-card-current">
+              <span class="mission-badge">ai safety</span>
+              <h3><span class="company-logo nvidia-logo">NVIDIA</span> Senior Machine Learning Engineer</h3>
+              <p>Lead AI safety work for large multimodal foundation models across text, image, audio, and video.</p>
+              <ul>
+                <li>Multimodal safety datasets and review workflows.</li>
+                <li>Evaluation frameworks for model failure modes.</li>
+                <li>Alignment workflow tooling for post-training teams.</li>
+              </ul>
             </div>
-            <ul class="timeline-bullets">
-              <li>Built end-to-end ML pipeline from feature engineering through model training to reporting, with MLflow model registry automating version control</li>
-              <li>Created hyperparameter tuning system on distributed Dask cluster (AWS Fargate/ECS) — trained hundreds of models in 30 minutes with 70+ workers</li>
-              <li>Delivered accessible model results for 100+ models across 3 clients via full-stack Model Training Report Website on S3 with Looker dashboards</li>
-            </ul>
-          </div>
-        </div>
+          </article>
 
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ═══ EDUCATION ═══ -->
-  <section id="education" class="section" data-theme="peach">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 04</span>
-        <h2 class="section-title">Education</h2>
-      </div>
-      <div class="edu-grid reveal">
-        <div class="edu-card">
-          <div class="edu-card-header">
-            <svg class="edu-logo" viewBox="0 0 48 48" aria-hidden="true">
-              <rect width="48" height="48" rx="10" fill="#C41230"/>
-              <text x="24" y="31" text-anchor="middle" fill="#fff" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="16">CMU</text>
-            </svg>
-            <div class="edu-school">Carnegie Mellon University</div>
-          </div>
-          <div class="edu-degree">Master of Information Systems Management</div>
-          <div class="edu-meta">Pittsburgh, PA &nbsp;·&nbsp; 2017 – 2019</div>
-        </div>
-        <div class="edu-card">
-          <div class="edu-card-header">
-            <svg class="edu-logo" viewBox="0 0 48 48" aria-hidden="true">
-              <rect width="48" height="48" rx="10" fill="#1A1A1A"/>
-              <text x="24" y="34" text-anchor="middle" fill="#F1B82D" font-family="Space Grotesk, sans-serif" font-weight="800" font-size="26">M</text>
-            </svg>
-            <div class="edu-school">University of Missouri</div>
-          </div>
-          <div class="edu-degree">B.S. Statistics &amp; Mathematics <span class="badge-inline">Double Major</span></div>
-          <div class="edu-meta">Columbia, MO &nbsp;·&nbsp; 2015 – 2017</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ SKILLS ═══ -->
-  <section id="skills" class="section" data-theme="emerald">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 05</span>
-        <h2 class="section-title">Skills</h2>
-      </div>
-      <div class="skills-grid reveal">
-
-        <div class="skill-card">
-          <div class="skill-card-core">
-            <div class="skill-icon" aria-hidden="true">🛠️</div>
-            <h3 class="skill-card-title">Software Engineering</h3>
-            <p class="skill-card-desc">Reliable, maintainable systems across the stack.</p>
-          </div>
-          <div class="skill-cloud">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">Go</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">Java</span>
-            <span class="skill-tag">Ruby on Rails</span>
-            <span class="skill-tag">SQL</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card-core">
-            <div class="skill-icon" aria-hidden="true">🧠</div>
-            <h3 class="skill-card-title">ML &amp; AI Safety</h3>
-            <p class="skill-card-desc">LLM safety, synthetic data, and multimodal evaluation.</p>
-          </div>
-          <div class="skill-cloud">
-            <span class="skill-tag">LLM Safety</span>
-            <span class="skill-tag">Synthetic Data</span>
-            <span class="skill-tag">Evaluation</span>
-            <span class="skill-tag">Red Teaming</span>
-            <span class="skill-tag">PyTorch</span>
-            <span class="skill-tag">Keras</span>
-            <span class="skill-tag">Scikit-learn</span>
-            <span class="skill-tag">XGBoost</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card-core">
-            <div class="skill-icon" aria-hidden="true">⚙️</div>
-            <h3 class="skill-card-title">MLOps</h3>
-            <p class="skill-card-desc">Pipelines, experiment tracking, and model lifecycle.</p>
-          </div>
-          <div class="skill-cloud">
-            <span class="skill-tag">Kubeflow</span>
-            <span class="skill-tag">MLflow</span>
-            <span class="skill-tag">Airflow</span>
-            <span class="skill-tag">Argo</span>
-            <span class="skill-tag">Ray</span>
-            <span class="skill-tag">Prefect</span>
-            <span class="skill-tag">Dask</span>
-            <span class="skill-tag">Spark</span>
-            <span class="skill-tag">Seldon Core</span>
-            <span class="skill-tag">Papermill</span>
-            <span class="skill-tag">Databricks</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card-core">
-            <div class="skill-icon" aria-hidden="true">☁️</div>
-            <h3 class="skill-card-title">Infra &amp; Cloud</h3>
-            <p class="skill-card-desc">Cloud-native infrastructure, observability, and CI/CD.</p>
-          </div>
-          <div class="skill-cloud">
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Kubernetes</span>
-            <span class="skill-tag">Terraform</span>
-            <span class="skill-tag">Helm</span>
-            <span class="skill-tag">Prometheus</span>
-            <span class="skill-tag">Grafana</span>
-            <span class="skill-tag">AWS</span>
-            <span class="skill-tag">Azure</span>
-            <span class="skill-tag">GitLab CI/CD</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ EVENTS ═══ -->
-  <section id="events" class="section section-alt" data-theme="fuchsia">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 06</span>
-        <h2 class="section-title">Events &amp; Speaking</h2>
-      </div>
-      <div class="events-intro reveal">
-        <p>In March 2026, I presented at <strong>NVIDIA GTC 2026</strong> — the world's leading AI conference — both as a training session speaker and a poster presenter, sharing work from the frontier of AI safety and multimodal model development.</p>
-      </div>
-      <div class="events-list">
-
-        <!-- Training Lab -->
-        <div class="event-row reveal">
-          <img src="photos/optimized/gtc_training_720.jpg" alt="Jie presenting a GTC 2026 training lab" class="event-photo" loading="lazy" decoding="async" width="720">
-          <a href="https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit82150/"
-             target="_blank" rel="noopener" class="event-card">
-            <div class="event-card-top">
-              <span class="badge badge-cyan">Training Lab</span>
-              <span class="event-conf">GTC 2026</span>
+          <article class="mission-item reveal">
+            <div class="mission-date">Jul 2021 - Dec 2023</div>
+            <div class="mission-card">
+              <span class="mission-badge">platform / scale</span>
+              <h3><span class="company-logo ea-logo">EA</span> Software Engineer, AI Platform</h3>
+              <p>Built internal ML platform services that helped data scientists run, track, and ship model workflows.</p>
+              <ul>
+                <li>Delivered Kubeflow job submission with Go, Argo, and AWS metadata services.</li>
+                <li>Reduced training build time by 50% through optimized workflow templates.</li>
+              </ul>
             </div>
-            <h3 class="event-title">End-to-End Fine Tuning Pipeline for Annotation of American Sign Language for Hand Pose Estimation</h3>
-            <p class="event-desc">A hands-on training lab covering a complete fine-tuning pipeline for ASL annotation — enabling accurate hand pose estimation through domain-specific model adaptation at scale.</p>
-            <span class="event-link">Watch on NVIDIA On-Demand ↗</span>
+          </article>
+
+          <article class="mission-item reveal">
+            <div class="mission-date">Jul 2019 - Jul 2021</div>
+            <div class="mission-card">
+              <span class="mission-badge">ml systems / healthcare</span>
+              <h3><span class="company-logo actium-logo">Actium</span> Machine Learning Engineer</h3>
+              <p>Built model training and reporting infrastructure for production healthcare data science workflows.</p>
+              <ul>
+                <li>Created pipelines from feature engineering to model registry automation.</li>
+                <li>Scaled hyperparameter tuning on distributed Dask clusters across 70+ workers.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof" class="section-panel proof-panel">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Public proof</p>
+          <h2>GTC 2026: safety work brought into the open.</h2>
+          <p>I presented at NVIDIA GTC 2026 as both a training session speaker and poster presenter.</p>
+        </div>
+
+        <div class="proof-grid">
+          <a href="https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit82150/" target="_blank" rel="noopener" class="proof-card proof-card-wide reveal">
+            <img src="photos/optimized/gtc_training_720.jpg" alt="Jie presenting a GTC 2026 training lab" loading="lazy" decoding="async">
+            <div class="proof-copy">
+              <span>training lab</span>
+              <h3>End-to-End Fine Tuning Pipeline for Annotation of American Sign Language for Hand Pose Estimation</h3>
+              <p>Hands-on model adaptation workflow for ASL annotation and hand pose estimation.</p>
+            </div>
+          </a>
+
+          <a href="https://www.nvidia.com/gtc/posters/?search=safety#/session/1761263647501001dGIz" target="_blank" rel="noopener" class="proof-card reveal" style="--delay: 100ms">
+            <img src="photos/optimized/gtc_poster_720.jpg" alt="Jie at the GTC 2026 poster session" loading="lazy" decoding="async">
+            <div class="proof-copy">
+              <span>poster session</span>
+              <h3>An End-to-End Safety Alignment Recipe</h3>
+              <p>Synthetic data, evaluation, and workflow design for multimodal model alignment.</p>
+            </div>
           </a>
         </div>
+      </div>
+    </section>
 
-        <!-- Poster Session -->
-        <div class="event-row reveal">
-          <img src="photos/optimized/gtc_poster_720.jpg" alt="Jie at the GTC 2026 poster session" class="event-photo" loading="lazy" decoding="async" width="720">
-          <a href="https://www.nvidia.com/gtc/posters/?search=safety#/session/1761263647501001dGIz"
-             target="_blank" rel="noopener" class="event-card">
-            <div class="event-card-top">
-              <span class="badge badge-violet">Poster Session</span>
-              <span class="event-conf">GTC 2026</span>
-            </div>
-            <h3 class="event-title">An End-to-End Safety Alignment Recipe</h3>
-            <p class="event-desc">Sharing a complete safety alignment recipe with the AI community — covering the full pipeline from synthetic data generation and red-teaming to evaluation for aligning large multimodal foundation models.</p>
-            <span class="event-link">View Poster ↗</span>
-          </a>
+    <section id="off-grid" class="section-panel offgrid-panel">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Off grid</p>
+          <h2>Outside the terminal, I collect frames.</h2>
+          <p>Travel photography gives the page a second texture: less system, more field notes.</p>
         </div>
 
-      </div>
-    </div>
-  </section>
+        <div class="travel-ribbon reveal">
+          <figure>
+            <img src="photos/optimized/travel_dsc09786_760.jpg" alt="Alaska train at blue hour" loading="lazy" decoding="async">
+            <figcaption>Alaska rail</figcaption>
+          </figure>
+          <figure>
+            <img src="photos/optimized/travel_img9056_760.jpg" alt="Ice wall texture captured while traveling" loading="lazy" decoding="async">
+            <figcaption>Ice texture</figcaption>
+          </figure>
+          <figure>
+            <img src="photos/optimized/travel_img9424_760.jpg" alt="Coastal travel landscape" loading="lazy" decoding="async">
+            <figcaption>Between stops</figcaption>
+          </figure>
+          <figure>
+            <img src="photos/optimized/travel_img9639_760.jpg" alt="Travel moment outdoors" loading="lazy" decoding="async">
+            <figcaption>Small detours</figcaption>
+          </figure>
+        </div>
 
-  <!-- ═══ TRAVEL ═══ -->
-  <section id="travel" class="section" data-theme="sky">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">// 07</span>
-        <h2 class="section-title">Beyond the Terminal</h2>
+        <div class="footer-cta reveal">
+          <a href="gallery.html" class="btn btn-primary">View full gallery</a>
+          <a href="mailto:jlou1@alumni.cmu.edu" class="btn btn-secondary">jlou1@alumni.cmu.edu</a>
+        </div>
       </div>
-      <p class="section-desc reveal">When I'm not building AI systems, I'm out exploring the world.</p>
-      <div class="travel-grid reveal">
-        <figure class="travel-item">
-          <img src="photos/optimized/travel_dsc09786_760.jpg"  alt="Mountain view from a travel stop"  class="travel-photo" loading="lazy" decoding="async">
-          <figcaption>Open sky</figcaption>
-        </figure>
-        <figure class="travel-item">
-          <img src="photos/optimized/travel_img9056_760.jpg"  alt="City architecture captured while traveling"  class="travel-photo" loading="lazy" decoding="async">
-          <figcaption>City texture</figcaption>
-        </figure>
-        <figure class="travel-item">
-          <img src="photos/optimized/travel_img9424_760.jpg"  alt="Coastal travel landscape"  class="travel-photo" loading="lazy" decoding="async">
-          <figcaption>Between stops</figcaption>
-        </figure>
-        <figure class="travel-item">
-          <img src="photos/optimized/travel_img9639_760.jpg"  alt="Travel moment outdoors"  class="travel-photo" loading="lazy" decoding="async">
-          <figcaption>Small detours</figcaption>
-        </figure>
-      </div>
-      <div class="travel-cta reveal">
-        <a href="gallery.html" class="btn btn-primary">View Full Gallery</a>
-      </div>
-    </div>
-  </section>
+    </section>
   </main>
 
-  <!-- ═══ FOOTER ═══ -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-name">Jie Lou</div>
-        <div class="footer-links">
-          <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="mailto:jlou1@alumni.cmu.edu">jlou1@alumni.cmu.edu</a>
-        </div>
-        <div class="footer-copy">&copy; 2026 Jie Lou</div>
+    <div class="footer-inner">
+      <div>
+        <strong>Jie Lou</strong>
+        <span>AI safety engineer and builder.</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/jielou" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:jlou1@alumni.cmu.edu">Email</a>
       </div>
     </div>
   </footer>
